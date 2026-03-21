@@ -15,10 +15,10 @@
 - make_own_db.py
 - find_similar.py
 - search_in_db.py
+- hello_api_TMDB.py
 
 ### Вспомогательные скрипты
 
-- hello_api_TMDB.py
 - own_db_helpers.py
 - tmdb_helpers.py
 
@@ -83,5 +83,8 @@ python find_similar.py
 
 ![find_similar](find_similar.png)
 
+### hello_api_TMDB.py
+
+Проверяет валидность api-ключа. После запуска скрипта необходимо ввести api-ключ, полученный ранее на сайте [themoviedb](https://api.themoviedb.org). Если ключ неверен, программа сообщает об ошибке и завершает работу. Если ключ введен правильно, то будет выведен бюджет фильма, id которого указан в переменной.
 
 
